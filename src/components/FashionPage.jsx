@@ -253,8 +253,8 @@ import { useCart } from "./CartContext"; // Import the custom hook
 import { ToastContainer, toast } from "react-toastify";
 import { FaStar, FaCheckCircle, FaShieldAlt } from "react-icons/fa"; // Example icons
 import "react-toastify/dist/ReactToastify.css"; // Import CSS for react-toastify
-import localImage from "./productimages/IMG_5600.JPG"; // Adjust the path as needed
-import localImage2 from "./productimages/IMG_5597.JPG"; // Adjust the path as needed
+import localImage from "./IMG_5595.JPG"; // Adjust the path as needed
+import localImage2 from "./productimages/IMG_5598.JPG"; // Adjust the path as needed
 import localImage3 from "./productimages/IMG_5598.JPG"; // Adjust the path as needed
 import localImage4 from "./productimages/IMG_5604.JPG"; // Adjust the path as needed
 import localImage5 from "./productimages/IMG_5605.JPG"; // Adjust the path as needed
@@ -266,12 +266,9 @@ const FashionPage = ({ reviews1Ref, service1Ref }) => {
 
   // Define the carouselItems array with 6 unique items
   const carouselItems = [
-    { id: 1, name: "Item 1", price: "$49.99", image: localImage },
-    { id: 2, name: "Item 2", price: "$59.99", image: localImage2 },
-    { id: 3, name: "Item 3", price: "$39.99", image: localImage3 },
-    { id: 4, name: "Item 4", price: "$69.99", image: localImage4 },
-    { id: 5, name: "Item 5", price: "$79.99", image: localImage5 },
-    { id: 6, name: "Item 6", price: "$89.99", image: localImage6 },
+    { id: 1, name: "Unknown Alpha Frock 1", price: "1132 £", image: localImage },
+    { id: 2, name: "Unknown Alpaha panties", price: "90 £", image: localImage2 },
+  
   ];
 
   const features = [
@@ -413,7 +410,7 @@ const styles = {
     display: "grid",
     gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
     gap: "1.5rem", // Decreased gap between product images
-    maxWidth: "1200px",
+    maxWidth: "900px",
     marginBottom: "1rem",
     margin: "0 auto",
   },
@@ -441,7 +438,7 @@ const styles = {
   },
   featureCard1: {
     backgroundColor: "#fff",
-    padding: "1.5rem",
+    padding: "1rem",
     borderRadius: "15px",
     boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)", // Added shadow box
     textAlign: "left",

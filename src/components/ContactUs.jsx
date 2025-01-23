@@ -21,11 +21,11 @@ const ContactUs = () => {
             <div className="contact-details">
               <div className="detail-item">
                 <span className="icon">📍</span>
-                <span>123 Fashion Street, New York, NY 10001</span>
+                <span>KT174AA 42 Hawthorne palace</span>
               </div>
               <div className="detail-item">
                 <span className="icon">📞</span>
-                <span>+1 (123) 456-7890</span>
+                <span>+44 7429986009</span>
               </div>
               <div className="detail-item">
                 <span className="icon">✉️</span>
@@ -45,18 +45,8 @@ const ContactUs = () => {
                   alt="Facebook"
                 />
               </a>
-              <a href="#" className="social-icon">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/733/733579.png"
-                  alt="Twitter"
-                />
-              </a>
-              <a href="#" className="social-icon">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png"
-                  alt="LinkedIn"
-                />
-              </a>
+            
+            
             </div>
           </div>
 

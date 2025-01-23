@@ -156,38 +156,7 @@ const AboutUs = () => {
           </div>
         </section>
 
-        <section>
-          <h2>Meet Our Creative Minds</h2>
-          <div style={styles.teamMembers}>
-            <div style={styles.teamMember}>
-              <img
-                src="https://t3.ftcdn.net/jpg/06/36/69/86/360_F_636698674_DroChEj5eWmZiaZOSDMnj8hcDqqw74Fp.jpg"
-                alt="Jane Doe"
-                style={styles.teamMemberImg}
-              />
-              <h3>Jane Flex</h3>
-              <p>Founder & CEO</p>
-            </div>
-            <div style={styles.teamMember}>
-              <img
-                src="https://img.freepik.com/premium-photo/headshot-photos-indian-women-dynamic-professions-occassions-indian-girl_978786-295.jpg"
-                alt="John Smith"
-                style={styles.teamMemberImg}
-              />
-              <h3>Cris Smit</h3>
-              <p>Lead Designer</p>
-            </div>
-            <div style={styles.teamMember}>
-              <img
-                src="https://t3.ftcdn.net/jpg/06/36/69/86/360_F_636698674_DroChEj5eWmZiaZOSDMnj8hcDqqw74Fp.jpg"
-                alt="Alice Johnson"
-                style={styles.teamMemberImg}
-              />
-              <h3>Alice Johnson</h3>
-              <p>Marketing Lead</p>
-            </div>
-          </div>
-        </section>
+    
 
         <footer style={styles.footer}>
           <p>&copy; 2025 Fashion Design Co. All rights reserved.</p>
