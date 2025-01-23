@@ -319,7 +319,7 @@ const FashionPage = ({ reviews1Ref, service1Ref }) => {
           {carouselItems.map((item) => (
             <div style={styles.featureCard1} key={item.id}>
               <img src={item.image} alt={item.name} style={styles.cardImage} />
-              <p style={styles.itemPrice}>{item.price}</p>
+              <p style={styles.itemPrice}><b>{item.price}</b></p>
               <div style={styles.buttonGroup}>
                 <button
                   style={styles.shopNowButton}

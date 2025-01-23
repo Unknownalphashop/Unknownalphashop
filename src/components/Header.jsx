@@ -97,9 +97,9 @@ const Header = ({ cartCount, onNavigate }) => {
           </li>
           <li>
             {/* Shop link in the sidebar */}
-            <a href="#reviews1" onClick={toggleSidebar}>
+            <Link to="#reviews1" onClick={toggleSidebar}>
               Shop
-            </a>
+            </Link>
           </li>
           <li>
             <Link to="/contact" onClick={toggleSidebar}>

@@ -44,7 +44,7 @@ const ContactUs = () => {
               </div>
             </div>
             <div className="social-media">
-              <a href="#" className="social-icon">
+              <a href="https://www.instagram.com/_unknown.alpha_?igsh=bzZlcWg3eXBvMXRq&utm_source=qr" className="social-icon">
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
                   alt="Instagram"
